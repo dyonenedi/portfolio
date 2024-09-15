@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap");
+
+:root{
+    /*########## COLORS ##########*/
+    --color-white: #eee;
+    --color-black-primary: #21222f;
+    --color-black-secondary: #282a36;
+    --color-black-light: #23242f;
+    --color-gray-light: rgba(81, 81, 81, 0.5);
+    --color-yellow: #f1fa8c;
+    --color-green: #50fa7b;
+    --color-red: #f55;
+    --color-gray-icon: rgb(106, 115, 125, .8);
+    --color-blue: rgb(37, 86, 149);
+    --color-blue-dark: rgb(31, 70, 122);
+
+    /*########## FONTS ##########*/
+    --font-primary: JetBrains Mono, monospace, sans-serif;
+    --font-secondary: Source Sans Pro, monospace, sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: .85rem;
+    box-sizing: border-box;
+    color: var(--color-white);
+}
+
+body{
+    font-family: var(--font-primary);
+}
+
+/* ########## AUXI ##########*/
+.border-light{
+    border: 1px solid var(--color-gray-light);
+}
+.border-light-x{
+    border-left: 1px solid var(--color-gray-light);
+    border-right: 1px solid var(--color-gray-light);
+    border-top: 0;
+    border-bottom: 0;
+}
+.border-active{
+    border-top: 2px solid var(--color-blue);
+}
+.btn{
+    padding: 10px 18px;
+    background-color: var(--color-blue-dark);
+    border-radius: 2px;
+    font-weight: 600;
+}
+.btn:hover{
+    background-color: var(--color-blue);
+}
+code{
+    font-size: 14px!important;
+    font-family: var(--font-secondary)!important;
+}
+
+/*########## STRUCTURE ##########*/
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 100%!important;
+    width: 100%!important;
+}
+.menu{
+    height: 2.5rem;
+    background-color: var(--color-black-light);
+    font-family: var(--font-secondary);
+    height: 2rem;
+}
+    [class^="title_bar_"]{
+        width: 13px;
+        height: 13px;
+        margin-left: .5rem;
+        padding: 0;
+        border-radius: 50%;
+    }
+    .title_bar_1 {
+        background-color: var(--color-yellow);
+    }
+    .title_bar_2 {
+        background-color: var(--color-green);
+    }
+    .title_bar_3 {
+        background-color: var(--color-red);
+    }
+
+.core{
+    flex-grow: 1;
+    display: flex;
+}
+    .aside_menu{
+        background: var(--color-black-secondary);
+        width: 4vw;
+        min-width: 40px;   
+    }
+        .aside_icon{
+            color: var(--color-gray-icon);
+            width: 25px;
+            height: 25px;
+        }
+        .aside_icon:active{
+            color: var(--color-white);
+        }
+    .explorer{
+        background-color: var(--color-black-primary);
+        width: 17vw;
+    }
+        menu > a:hover{
+            background-color: var(--color-black-secondary);
+            width: 100%;
+        }
+        .explorer_actived{
+            background-color: var(--color-black-secondary);
+            width: 100%;
+        }
+    .coding{
+        display: flex;
+        flex-grow: 1;
+        flex-flow: column;
+        width: 79vw;
+    }
+        .tabs{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            background-color: var(--color-black-primary);
+        }
+        .tab_link{
+            font-size: var(--font-secondary);
+        }
+            .tab_content{
+                background-color: var(--color-black-primary);
+                border: 1px solid var(--color-gray-light);
+            }
+            .tab_content_actived{
+                background-color: var(--color-black-secondary);
+                border-top: 2px solid var(--color-blue);
+            }
+        .page_content{
+            background-color: var(--color-black-secondary);
+            font-family: var(--font-secondary);
+        }
+        .about{
+            font-size: 1.2rem!important;
+            max-width: 700px;
+            padding: 40px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .contact{
+
+            font-size: 1.2rem!important;
+            max-width: 700px;
+            padding: 40px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .project-description {
+            display: none;
+        }
+        .project-item:hover .project-description{
+            display: block;
+        }
+        .project-item:hover .project-img{
+            opacity: .1;
+        }
+
+.footer{
+    background-color: var(--color-black-light);
+    height: 2rem;
+}
