@@ -9,7 +9,7 @@ const projetos = [
     {
         name: "Choorn",
         img: Choorn,
-        description: "Choorn foi o meu primeiro site, de vendas de produtos, feito em Macromedia Flash.",
+        description: "Choorn foi o meu primeiro site de vendas de produtos feito no Macromedia Flash.",
     },
     {
         name: "Lidiun",
@@ -24,17 +24,17 @@ const projetos = [
     {
         name: "Legend of Poker",
         img: Poker,
-        description: "Legend of Poker é site para montar mesas de Poker, sem dinheiro real, contra amigos ou boots.",
+        description: "Legend of Poker é site para montar mesas de poker para jogar contra amigos ou boots.",
     },
     {
         name: "King of Thieves",
         img: Kot,
-        description: "King of Thieves é um jogo originalmente de celular, que re-implementei em um solo mode.",
+        description: "King of Thieves é um jogo originalmente de celular, que re-implementei com um modo solo.",
     },
     {
         name: "Fish Fast",
         img: FishFast,
-        description: "Fish Fast é um jogo visiante de pesca e engeene building que tem elementos de RPG.",
+        description: "Fish Fast é um jogo viciante de pesca e engine building que tem elementos de RPG.",
     },
 ]
 
