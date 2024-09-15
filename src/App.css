@@ -54,9 +54,34 @@ body{
 .btn:hover{
     background-color: var(--color-blue);
 }
-code{
-    font-size: 14px!important;
-    font-family: var(--font-secondary)!important;
+.json, .json span{
+    font-size: 14px;
+}
+.json {
+    color: #65cddb;
+    font-family: var(--font-primary);
+    font-weight: 600;
+}
+.json .dec{
+    color: #068acc
+}
+.json .obj-dec{
+    color: #08a5c9;
+}
+.json .sign{
+    color: #EEE;
+}
+.json .obj{
+    color: #e7c41e;
+}
+.json .str{
+    color: #9e7a61;
+}
+.json .int{
+    color: #a8b681;
+}
+.json .array{
+    color: #7e4bc8;
 }
 
 /*########## STRUCTURE ##########*/
