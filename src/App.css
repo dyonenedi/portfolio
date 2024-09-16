@@ -45,6 +45,9 @@ body{
 .border-active{
     border-top: 2px solid var(--color-blue);
 }
+.bluer{
+    filter: blur(1px);
+}
 .btn{
     padding: 10px 18px;
     background-color: var(--color-blue-dark);

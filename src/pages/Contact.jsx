@@ -10,7 +10,7 @@ export default function Contact(){
                         </span> dyonenedi@gmail.com
                     </p>
 
-                    <img src={ContactImg} className="w-2/5 pt-10" />
+                    <img src={ContactImg} className="w-2/5 pt-10 bluer" />
                 </div>
             </div>
         </div>
