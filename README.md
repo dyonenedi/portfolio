@@ -1,29 +1,23 @@
 # Portfolio
-## A portfolio made on React, with vs code skin inspired by @itsnitinr.
+A portfolio with VS Studio Skin  
+![React Version](https://img.shields.io/badge/React-10.9.3-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-# React + Vite
-## How to install 
-´´´ssh
-npm create vite@latest my-react-app -- --template react 
-cd my-react-app
-npm install
-´´´
+## Version Updates 
+- Created Date: 09/14/2024
 
-## How to Run
-´´´ssh
-npm run dev
-´´´
+## Install
+```bash
+git clone https://github.com/dyonenedi/portfolio.git
+cd portfolio
+npm dev run
+```
 
-## How to Build 
-´´´ssh
-npm run build
-´´´
+## Dependece
+- Node.JS v20.19.2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Owner
+- [Dyon Enedi](https://github.com/dyonenedi)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-
+## License
+This project is licensed under the MIT license - see the [LICENSE](LICENSE) file for more details.
