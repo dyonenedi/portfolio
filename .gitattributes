@@ -1,0 +1,5 @@
+*.html linguist-detectable=true
+*.css linguist-detectable=false
+*.sass linguist-detectable=false
+*.js linguist-detectable=false
+CHANGELOG.md export-ignore
