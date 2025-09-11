@@ -1,3 +1,2 @@
 *.html linguist-detectable=true
-*.js linguist-detectable=false
 CHANGELOG.md export-ignore
